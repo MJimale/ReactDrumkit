@@ -1,0 +1,62 @@
+marquee{
+font-family:Garamond, serif;
+font-size:2em;
+line-height:1.3em;
+color:black;
+}
+
+
+#drum-machine {
+  background-color: #92DCE5;
+  height: 85vh;
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  vertical-align: middle ;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+  
+}
+#display {
+  margin-left: auto;
+  margin-right: auto;
+  height: 15vh;
+  width: 60vh;
+  display: flex;
+  border: 1px solid #ffffff;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background-color: #dbdbdb;
+}
+
+#drum-pads {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drum-pad {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 12px 0 0;
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 20vh;
+  width: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1vw;
+  background-color: #D64933;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
